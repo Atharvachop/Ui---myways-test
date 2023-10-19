@@ -1,0 +1,139 @@
+
+.App {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+
+  grid-template-columns: 1fr 2fr;
+  height: 100vh;
+  gap: 10px;
+  
+}
+
+.kanban-board {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  padding: 20px;
+  width: 1000px;
+  height: 60vh;
+}
+
+.input-container {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+button {
+  
+  padding: 10px;
+  border: none;
+  background-color: #525252;
+  color: #fff;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #525252;
+}
+
+.kanban-columns {
+  display: flex;
+}
+
+.kanban-column {
+  flex: 1;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+  margin: 10px;
+}
+
+.kanban-scrollable-container {
+  max-height: 300px; 
+  overflow-y: auto;
+}
+
+.kanban-task {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+
+
+
+
+.chat-container {
+  background-color: #f2f2f2;
+  width: 400px;
+  height: 60vh;
+  padding: 20px;
+  border-radius: 5px;
+  margin: 0 auto;
+  border: 1px solid #ccc;
+}
+
+.chat-heading {
+  font-size: 24px;
+  text-align: center;
+}
+
+.message-container {
+  margin-top: 20px;
+  max-height: 47vh;
+  overflow-y: auto;
+}
+
+.message {
+  background-color: #fff;
+  padding: 8px;
+  margin: 8px 0;
+  border-radius: 5px;
+}
+
+.input-container {
+  margin-top: 20px;
+  display: flex;
+  align-items: flex-end;
+}
+
+.message-input {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.send-button {
+  background-color: #595a5b;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 16px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.send-button:hover {
+  background-color: #58595b;
+} 
+
+
+
+
+
+
+
+
+
